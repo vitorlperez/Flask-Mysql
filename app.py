@@ -55,5 +55,5 @@ def create():
     conn.close()
     return render_template('creat.html', lists=lists)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+app.run(debug=True)
+    
