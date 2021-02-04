@@ -55,5 +55,3 @@ def create():
     conn.close()
     return render_template('creat.html', lists=lists)
 
-app.run(debug=True)
-    
